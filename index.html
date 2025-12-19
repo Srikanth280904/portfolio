@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Srikanth | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#eef2ff,#fdf4ff,#ecfeff);
+  color:#1f2937;
+}
+
+/* HERO */
+.hero{
+  padding:90px 20px 70px;
+  text-align:center;
+  animation:slideDown 1.2s ease;
+}
+
+.hero h1{
+  font-size:42px;
+  color:#4338ca;
+}
+
+.hero p{
+  font-size:18px;
+  margin-top:8px;
+  color:#6366f1;
+}
+
+/* SOCIAL LINKS */
+.social-links{
+  margin-top:22px;
+}
+
+.social-links a{
+  display:inline-block;
+  margin:8px;
+  padding:12px 28px;
+  border-radius:999px;
+  background:linear-gradient(135deg,#6366f1,#a855f7);
+  color:#fff;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.social-links a:hover{
+  transform:scale(1.05);
+  box-shadow:0 12px 25px rgba(99,102,241,0.45);
+}
+
+/* SECTIONS */
+section{
+  padding:55px 10%;
+  animation:fadeUp 1s ease;
+}
+
+h2{
+  font-size:26px;
+  margin-bottom:22px;
+  color:#4338ca;
+}
+
+/* CARD */
+.card{
+  background:#ffffff;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 16px 32px rgba(0,0,0,0.08);
+  margin-bottom:35px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 22px 42px rgba(0,0,0,0.12);
+}
+
+ul{
+  padding-left:22px;
+}
+
+ul li{
+  margin-bottom:10px;
+  line-height:1.7;
+}
+
+/* TAGS */
+.tags span{
+  display:inline-block;
+  background:#eef2ff;
+  color:#4338ca;
+  padding:8px 16px;
+  margin:6px;
+  border-radius:999px;
+  font-size:14px;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  padding:14px 36px;
+  border-radius:999px;
+  font-weight:600;
+  background:linear-gradient(135deg,#4f46e5,#9333ea);
+  color:#fff;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 18px 38px rgba(79,70,229,0.5);
+}
+
+/* CONTACT */
+.contact p{
+  font-size:16px;
+  line-height:1.8;
+}
+
+/* FOOTER */
+footer{
+  background:#eef2ff;
+  text-align:center;
+  padding:25px;
+  font-size:14px;
+}
+
+/* ANIMATIONS */
+@keyframes slideDown{
+  from{opacity:0;transform:translateY(-40px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>S. Srikanth</h1>
+  <p>Artificial Intelligence & Data Science Student</p>
+
+  <div class="social-links">
+    <a href="https://github.com/your-github" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+  </div>
+</div>
+
+<section>
+<h2>Profile</h2>
+<div class="card">
+Artificial Intelligence and Data Science student at The Apollo University with strong
+foundational knowledge in Python, data analysis, and machine learning. Passionate
+about applying analytical skills to solve real-world problems.
+</div>
+</section>
+
+<section>
+<h2>Education</h2>
+<div class="card">
+<ul>
+<li>
+<strong>The Apollo University</strong><br>
+B.Tech – Artificial Intelligence & Data Science<br>
+<em>2022 – 2026</em>
+</li>
+<br>
+<li>
+<strong>Sri Chaitanya Junior College, Chittoor</strong><br>
+Intermediate (MPC)<br>
+<em>2020 – 2022</em>
+</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="card tags">
+<span>Python</span>
+<span>SQL</span>
+<span>Machine Learning</span>
+<span>Artificial Intelligence</span>
+<span>Data Analysis</span>
+</div>
+</section>
+
+<section>
+<h2>Internship Experience</h2>
+<div class="card">
+<strong>Data Science Intern</strong><br>
+<em>Unified Mentor</em>
+<ul>
+<li>Worked on real-world datasets to clean, analyze, and extract insights.</li>
+<li>Applied data science techniques to build meaningful analysis reports.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Mini Projects</h2>
+
+<div class="card">
+<h3>Temperature Converter</h3>
+<ul>
+<li>Developed a Python-based application to convert temperatures.</li>
+<li>Handled Celsius, Fahrenheit, and Kelvin conversions.</li>
+<li><strong>Tools:</strong> Python</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Emotion Detection System</h3>
+<ul>
+<li>Implemented a basic emotion detection model using machine learning concepts.</li>
+<li>Classified emotional states from input data.</li>
+<li><strong>Tools:</strong> Python, Machine Learning</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Budget Analysis</h3>
+<ul>
+<li>Analyzed expense data to identify spending patterns.</li>
+<li>Summarized financial data for better budgeting decisions.</li>
+<li><strong>Tools:</strong> Python, Data Analysis</li>
+</ul>
+</div>
+
+</section>
+
+<section>
+<h2>Certifications</h2>
+<div class="card">
+<ul>
+<li><strong>Unified Mentor</strong> – Data Science Internship Certificate</li>
+<li><strong>NPTEL</strong> – Data Science for Engineers</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Resume</h2>
+<div class="card">
+<a class="btn" href="resume.pdf" download>Download Resume</a>
+</div>
+</section>
+
+<section class="contact">
+<h2>Contact Me</h2>
+<div class="card">
+<p>
+📧 <strong>Email:</strong> yourmail@gmail.com<br>
+📞 <strong>Phone:</strong> +91 XXXXXXXXXX<br>
+📍 <strong>Location:</strong> Andhra Pradesh, India
+</p>
+</div>
+</section>
+
+<footer>
+© 2025 | Srikanth Portfolio
+</footer>
+
+</body>
+</html>
